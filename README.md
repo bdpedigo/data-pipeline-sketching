@@ -85,6 +85,10 @@ graph TD
 ```
 
 ## Proposal for standardization, portability, reproducibility
+- Every node on this chart that is a data source should
+    - Have a clear example piece of Python code + environment that shows how to pull that object per "unit"
+        - e.g., get perisomatic segmentation per root ID
+        - get a mesh + synapses per root ID
 - Every node on this chart that takes in data -> outputs data should
     - Be a Python function in a library on PyPI
     - Have a well specified environment (implied by the above)
